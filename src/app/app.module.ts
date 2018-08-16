@@ -7,6 +7,8 @@ import { FooterComponent } from './footer/footer.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { ServerlessIntroductionComponent } from './contents/serverless/serverless-introduction/serverless-introduction.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { BigDataBasicsComponent } from './contents/big-data/big-data-basics/big-data-basics.component';
+import { BlockchainBasicsComponent } from './contents/blockchain/blockchain-basics/blockchain-basics.component';
 
 
 
@@ -16,7 +18,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     NavbarComponent,
     FooterComponent,
     ServerlessIntroductionComponent,
-    DashboardComponent
+    DashboardComponent,
+    BigDataBasicsComponent,
+    BlockchainBasicsComponent
    
   ],
   imports: [

@@ -7,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServerlessIntroductionComponent implements OnInit {
 
-  constructor() { }
+	title = "Serverless Framework";
+	fullImagePath: string;
+
+  constructor() {
+  	this.fullImagePath = 'assets/serverless-architecture-visual-5.png'
+   }
 
   ngOnInit() {
   }
