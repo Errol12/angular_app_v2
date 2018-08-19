@@ -10,8 +10,10 @@ const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'serverless_basic', component: ServerlessIntroductionComponent },
+  { path: 'serverless_basic/:id', component: ServerlessIntroductionComponent },
   { path: 'big_data_basic', component: BigDataBasicsComponent },
-  { path: 'blockchain_basic', component: BlockchainBasicsComponent }
+  { path: 'blockchain_basic', component: BlockchainBasicsComponent },
+  { path: '**', redirectTo: '/dashboard', pathMatch: 'full' },
  
 ];
  
